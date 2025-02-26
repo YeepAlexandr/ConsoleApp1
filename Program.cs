@@ -13,7 +13,7 @@ namespace ConsoleApp1
             Console.Write("Введите значение параметра х: ");
             string s = Console.ReadLine();
             double x = double.Parse(s);
-            double F = 2 * Math.Cos(x);
+            double F = 5*Math.Sin(x) - 7*Math.Cos(x);
             Console.WriteLine($"Значение F = {F}.");
             Console.ReadKey();
         }
